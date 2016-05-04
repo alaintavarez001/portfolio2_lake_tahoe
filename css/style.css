@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  font-family: arial;
+}
+
+div{
+  width: 80%;
+  margin: auto;
+}
+
+#top{
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+.title{
+  font-size: 26px;
+}
+
+h1{
+  font-size: 90px;
+  font-weight: lighter;
+}
+
+p{
+  line-height: 1.5;
+}
+
+.callout{
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#wildlifecu{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+a:link{
+  color: orange;
+
+}
+
+a:hover{
+  color: tan;
+}
+
+a:active{
+  color: skyblue;
+}
+
+a:visited{
+  color: steelblue;
+}
+
+.main-footer{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  color: dimgray;
+  width: 760px;
+  border-top: darkgray solid 2px;
+  margin: auto;
+}
+
+ol{
+  line-height: 1.5;
+  color: dimgray;
+}
+
+.tips{
+  color: dimgray;
+  padding-bottom: 50px;
+  width: 760px;
+}
+
+.wildlife{
+  background-color: dimgray;
+  color: white;
+  height: 380px;
+  width: 480px;
+  text-align: center;
+  padding-top: 80px;
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  font-weight: lighter;
+  border-top: 10px solid orange;
+  margin-bottom: 100px;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+h3{
+  color: darkslategray;
+}
+
+#topcontent{
+font-size: 19px;
+font-weight: lighter;
+color: dimgrey;
+text-align: center;
+border-top: darkgray solid 2px;
+padding-top: 50px;
+width: 760px;
+height: 230px;
+}
+
+img{
+  width: 760px;
+}
+.resorts{
+  margin-top: 100px;
+  align-content: center;
+  color: dimgray;
+  width: 760px;
+  border-top: darkgray solid 2px;
+  padding-top: 100px;
+}
