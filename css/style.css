@@ -1,6 +1,8 @@
 body{
   margin: 0;
   font-family: arial;
+  border-bottom: 10px solid orange;
+  padding-bottom: 50px;
 }
 
 div{
@@ -130,3 +132,4 @@ img{
   border-top: darkgray solid 2px;
   padding-top: 100px;
 }
+/*finished*/
