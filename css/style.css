@@ -1,7 +1,7 @@
 body{
   margin: 0;
-  font-family: arial;
-  border-bottom: 11px solid orange;
+  font-family: 'Fjalla One', sans-serif;
+  border-bottom: 20px solid orange;
   padding-bottom: 50px;
 }
 
@@ -14,14 +14,21 @@ div{
   background-color: orange;
   color: white;
   text-align: center;
+  background: linear-gradient(orange, transparent),
+              linear-gradient(transparent,white),
+              url('../img/mountains.jpg');
+  background-size: cover;
+  height: 500px;
+  margin-bottom: 70px;
+  padding-top: 300px;
 }
 
 .title{
-  font-size: 26px;
+  font-size: 25px;
 }
 
 h1{
-  font-size: 90px;
+  font-size: 50px;
   font-weight: lighter;
 }
 
@@ -40,6 +47,9 @@ p{
 
 #wildlifecu{
   text-align: center;
+  border-bottom:  darkgray solid 2px;
+  width: 760px;
+  padding-bottom: 70px;
 }
 
 a{
@@ -79,12 +89,6 @@ ol{
   color: dimgray;
 }
 
-.tips{
-  color: dimgray;
-  padding-bottom: 50px;
-  width: 760px;
-}
-
 .wildlife{
   background-color: dimgray;
   color: white;
@@ -99,6 +103,9 @@ ol{
   font-weight: lighter;
   border-top: 10px solid orange;
   margin-bottom: 100px;
+  border-radius: 10px;
+  background: url('../img/bear.jpg');
+  background-size: cover;
 }
 
 h2{
@@ -122,14 +129,39 @@ height: 230px;
 }
 
 img{
-  width: 760px;
+  width: 100%;
+  border-radius: 10px;
 }
 .resorts{
-  margin-top: 100px;
   align-content: center;
   color: dimgray;
+  float: left;
+}
+
+.tips{
+  color: dimgray;
+  float: right;
+}
+
+.resorts, .tips{
+  width: 45%;
+}
+
+.secondary-content img{
+  border-top: 10px solid orange;
+}
+
+.secondary-content{
   width: 760px;
-  border-top: darkgray solid 2px;
-  padding-top: 100px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.secondary-content:after{
+  width: 760px;
+  margin: auto;
+  content:"";
+  display: table;
+  clear: both;
 }
 /*finished*/
